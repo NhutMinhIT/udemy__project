@@ -35,6 +35,21 @@
     border-radius: 12px;
 }
 
+.btn__submit--primary {
+    color: aqua;
+    border-radius: 20%;
+    gap: 2rem;
+    margin: 0 12px 0 12px;
+    cursor: pointer;
+}
+
+.btn__submit--primary:hover {
+    color: rgb(9, 241, 9);
+    font-weight: 700;
+    z-index: 1;
+    box-shadow: 3px gray;
+}
+
 @media (min-width: 580px) {
     .expense-item__description {
         flex-direction: row;
